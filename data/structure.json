@@ -1,0 +1,3323 @@
+{
+  "checkedAt": "2026-11-08",
+  "coverageNote": "Источники просмотрены 8 ноября 2026 года. В каталоге 149 органов; для 148 органов подтверждены ФИО, для 1 ФИО не установлено. Дата публикации таблиц не указана.",
+  "offices": [
+    {
+      "id": "general",
+      "parentId": null,
+      "name": "Генеральная прокуратура Республики Беларусь",
+      "level": "national",
+      "region": "Республика Беларусь",
+      "address": "220030, г. Минск, ул. Интернациональная, 22",
+      "officials": [
+        {
+          "name": "Гора Дмитрий Юрьевич",
+          "position": "Генеральный прокурор Республики Беларусь",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/generalnaya-prokuratura/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Дыско Геннадий Иосифович",
+          "position": "Заместитель Генерального прокурора Республики Беларусь государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/generalnaya-prokuratura/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Воронин Максим Валерьевич",
+          "position": "Заместитель Генерального прокурора Республики Беларусь государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/generalnaya-prokuratura/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Удовиков Сергей Александрович",
+          "position": "Заместитель Генерального прокурора Республики Беларусь  государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/generalnaya-prokuratura/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Хмарук Сергей Константинович",
+          "position": "Заместитель Генерального прокурора Республики Беларусь государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/generalnaya-prokuratura/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/about/rukovodstvo/",
+      "checkedAt": "2026-11-07",
+      "publishedAt": null,
+      "status": "ФИО опубликованы на официальной странице руководства или личного приёма; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-брестской-области",
+      "parentId": "general",
+      "name": "Прокуратура Брестской области",
+      "level": "regional",
+      "region": "Брестская область",
+      "address": "224701 г.Брест, ул.Фомина, 15 brest@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Климов Виктор Дмитриевич",
+          "position": "Прокурор Брестской области государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Туровец Сергей Иванович",
+          "position": "Первый заместитель прокурора Брестской области  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Дерябин Даниил Александрович",
+          "position": "Заместитель прокурора Брестской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "барановичская-межрайонная-прокуратура",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Барановичская межрайонная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Брестская область",
+      "address": "225320 г.Барановичи, ул.Мицкевича, 20 bro-bara@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Карлюк Александр Павлович",
+          "position": "Барановичский межрайонный прокурор  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "брестская-транспортная-прокуратура",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Брестская транспортная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Брестская область",
+      "address": "224030 г.Брест, ул.Карла Маркса, 43 btp-bres@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Королюк Валерий Михайлович",
+          "position": "Брестский транспортный прокурор старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "пинская-межрайонная-прокуратура",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Пинская межрайонная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Брестская область",
+      "address": "225710 г.Пинск, ул.Партизанская, 21 bro-pins@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Позняк Дмитрий Сергеевич",
+          "position": "Пинский межрайонный прокурор старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-города-бреста",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура города Бреста",
+      "level": "city",
+      "region": "Брестская область",
+      "address": "224030 г.Брест, ул.Карла Маркса, 43 bro-bresg@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Володько Андрей Чеславович",
+          "position": "Прокурор г.Бреста  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-березовского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Березовского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225209 г.Береза, ул.Советская, 15 bro-bere@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Давидавичус Станислав Олегович",
+          "position": "Прокурор Березовского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-брестского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Брестского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "224030 г.Брест, ул.Карла Маркса, 43 bro-bres@prokuratura.gov.by",
+      "officials": [],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-07",
+      "publishedAt": null,
+      "status": "В проверенных официальных источниках не найдено ФИО для записи; должность/вакантность не устанавливалась."
+    },
+    {
+      "id": "прокуратура-ганцевичского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Ганцевичского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225432 г.Ганцевичи, ул.Победы, 7 bro-ganc@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Коховец Александр Сергеевич",
+          "position": "Прокурор Ганцевичского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-дрогичинского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Дрогичинского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225612 г.Дрогичин, ул.Карла Маркса, 3-А bro-drog@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Борщ Вячеслав Викторович",
+          "position": "Прокурор Дрогичинского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-жабинковского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Жабинковского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225101 г.Жабинка, ул.Котовского, 6 bro-zhab@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Марачук Дмитрий Юрьевич",
+          "position": "Прокурор Жабинковского района  младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ивановского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Ивановского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225792 г.Иваново, ул.Интернациональная, 12 bro-ivan@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Каменец Александр Александрович",
+          "position": "Прокурор Ивановского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ивацевичского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Ивацевичского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225295 г.Ивацевичи, ул. 60 лет Октября, 6 bro-ivac@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Хомич Александр Сергеевич",
+          "position": "Прокурор Ивацевичского района  младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-каменецкого-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Каменецкого района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225051 г.Каменец, ул.Маяковского, 27 bro-kame@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Вербицкий Александр Михайлович",
+          "position": "Прокурор Каменецкого района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-кобринского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Кобринского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225306 г.Кобрин, ул.Советская, 24 bro-kobr@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Мешечко Сергей Анатольевич",
+          "position": "Прокурор Кобринского района страший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-лунинецкого-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Лунинецкого района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225644 г.Лунинец, ул.Пантелеева, 6 bro-luni@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Прокопчук Юрий Иванович",
+          "position": "Прокурор Лунинецкого района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ляховичского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Ляховичского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225372 г. Ляховичи, ул. Гагарина, 7 bro-lyah@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Полыко Игорь Леонидович",
+          "position": "Прокурор Ляховичского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-малоритского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Малоритского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225910 г.Малорита, ул.Школьная, 11а bro-malo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Михович Федор Григорьевич",
+          "position": "Прокурор Малоритского район советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-пружанского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Пружанского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225133 г.Пружаны, ул.Чернышевского, 17 bro-pruj@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жукович Сергей Юрьевич",
+          "position": "Прокурор Пружанского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-столинского-района",
+      "parentId": "прокуратура-брестской-области",
+      "name": "Прокуратура Столинского района",
+      "level": "district",
+      "region": "Брестская область",
+      "address": "225510 г.Столин, ул.Карла Маркса, 15 bro-stol@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Федорович Александр Юрьевич",
+          "position": "Прокурор Столинского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/brestskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-витебской-области",
+      "parentId": "general",
+      "name": "Прокуратура Витебской области",
+      "level": "regional",
+      "region": "Витебская область",
+      "address": "210101 г.Витебск, ул. Жесткова, 14а vitebsk@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Скурат Андрей Николаевич",
+          "position": "Прокурор Витебской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Шабан Виктор Ярославович",
+          "position": "Первый заместитель прокурора Витебской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Гук Владимир Иванович",
+          "position": "Заместитель прокурора Витебской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Старченко Андрей Аркадьевич",
+          "position": "Заместитель прокурора Витебской области советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-города-витебска",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура города Витебска",
+      "level": "city",
+      "region": "Витебская область",
+      "address": "210101 г.Витебск, ул.Ленина,8в vto-viteg@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Трошко Сергей Александрович",
+          "position": "Прокурор г.Витебска старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-города-новополоцка",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура города Новополоцка",
+      "level": "city",
+      "region": "Витебская область",
+      "address": "211444 г.Новополоцк, ул.Молодежная, 155а vto-novo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Гришаева Елена Валерьевна",
+          "position": "Прокурор г.Новополоцка старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-бешенковичского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Бешенковичского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211361 г.п.Бешенковичи, ул.Чуклая,9 vto-besh@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Урбанович Сергей Антонович",
+          "position": "Прокурор Бешенковичского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-браславского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Браславского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211969 г.Браслав, ул.Дзержинского,65  vto-bras@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Кезик Юрий Станиславович",
+          "position": "Прокурор Браславского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-верхнедвинского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Верхнедвинского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211631 г.Верхнедвинск, ул.Советская,69 vto-verh@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Гарбус Сергей Петрович",
+          "position": "Прокурор Верхнедвинского района  советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-витебского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Витебского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "210027 г.Витебск, пр-т Черняховского,34а vto-vite@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лисовский Игорь Леонидович",
+          "position": "Прокурор Витебского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-глубокского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Глубокского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211793 г.Глубокое, ул.Горького,4а vto-glub@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Дайлиденок Валерий Михайлович",
+          "position": "Прокурор Глубокского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-городокского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Городокского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211573 г.Городок, ул.К.Маркса,74 vto-goro@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Авцин Евгений Григорьевич",
+          "position": "Прокурор Городокского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-докшицкого-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Докшицкого района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211722 г.Докшицы, ул.Гайдара,47 vto-doks@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Сосновский Ян Иванович",
+          "position": "Прокурор Докшицкого района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-дубровенского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Дубровенского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211587 г.Дубровно, пер.Старопочтовый,5 vto-dubr@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Филененко Александр Федорович",
+          "position": "Прокурор Дубровенского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-лепельского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Лепельского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211174 г.Лепель, ул.Советская,36а vto-lepe@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Ветюгов Андрей Борисович",
+          "position": "Прокурор Лепельского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-лиозненского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Лиозненского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211220 г.п.Лиозно, ул.Ленина,100б vto-lioz@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Бузиков Алексей Валерьевич",
+          "position": "Прокурор Лиозненского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-миорского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Миорского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211287 г.Миоры, ул.Северная,27 vto-mior@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Стативко Иван Сергеевич",
+          "position": "Прокурор Миорского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-оршанского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Оршанского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211391 г.Орша, ул.Кирова,1а vto-orsh@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Авсюк Анатолий Тадеушевич",
+          "position": "Прокурор Оршанского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-поставского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Поставского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211875 г.Поставы, ул.Советская,49 vto-post@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Корытько Алексей Владимирович",
+          "position": "Прокурор Поставского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-полоцкого-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Полоцкого района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211400 г.Полоцк, ул.Ф.Скорины, 23а vto-polo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Антоненко Олег Анатольевич",
+          "position": "Прокурор Полоцкого района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-россонского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Россонского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211471 г.п.Россоны, ул.Ленина,9а vto-ross@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Василевич Антон Викторович",
+          "position": "Прокурор Россонского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-сенненского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Сенненского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211117 г.Сенно, ул.К.Маркса,12 vto-senn@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Чудаков Роман Александрович",
+          "position": "Прокурор Сенненского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-толочинского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Толочинского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211092 г.Толочин, ул.Энгельса,9а vto-tolo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Корсаков Алексей Александрович",
+          "position": "Прокурор Толочинского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ушачского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Ушачского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211524 г.п.Ушачи, ул.Советская,35 vto-usha@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Оводнева Наталья Федоровна",
+          "position": "прокурор Ушачского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-чашникского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Чашникского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211149 г.Чашники, ул.Октябрьская, 12 vto-chas@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Галимбовский Сергей Сергеевич",
+          "position": "Прокурор Чашникского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-шарковщинского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Шарковщинского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211921 г.Шарковщина, ул.Комсомольская, 19 vto-shar@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лавданский Максим Викторович",
+          "position": "Прокурор Шарковщинского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-шумилинского-района",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Прокуратура Шумилинского района",
+      "level": "district",
+      "region": "Витебская область",
+      "address": "211259 г.п.Шумилино, ул.Сипко,60 vto-shum@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Горохов Антон Аркадьевич",
+          "position": "Прокурор Шумилинского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "витебская-транспортная-прокуратура",
+      "parentId": "прокуратура-витебской-области",
+      "name": "Витебская транспортная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Витебская область",
+      "address": "210001 г.Витебск, ул.5-я Свердлова,4 btp-vite@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Шиенок Константин Витальевич",
+          "position": "Витебский транспортный прокурор старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/vitebskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-гомельской-области",
+      "parentId": "general",
+      "name": "Прокуратура Гомельской области",
+      "level": "regional",
+      "region": "Гомельская область",
+      "address": "246050 г.Гомель, ул. Пушкина, 12 gomel@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Авдей Олег Александрович",
+          "position": "Прокурор Гомельской области государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Дроздов Александр Владимирович",
+          "position": "Первый заместитель прокурора Гомельской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Булынко Юрий Валерьевич",
+          "position": "Заместитель прокурора Гомельской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Тарасенко Владимир Анатольевич",
+          "position": "Заместитель прокурора Гомельской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-г-гомеля",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура г.Гомеля",
+      "level": "city",
+      "region": "Гомельская область",
+      "address": "246004 г.Гомель, пр-т Космонавтов, 11 gmo-gomeg@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жураковский Владислав Владимирович",
+          "position": "Прокурор г.Гомеля старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-брагинского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Брагинского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247632 г.Брагин, ул.Советская, 92 gmo-brag@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Мельников Алексей Васильевич",
+          "position": "Прокурор Брагинского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-буда-кошелевского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Буда-Кошелевского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247355 г.Буда-Кошелево, ул.Головачёва, 2 gmo-buda@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Сталович Вячеслав Леонидович",
+          "position": "Прокурор Буда-Кошелевского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ветковского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Ветковского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247131 г.Ветка, ул.Ленина, 3 gmo-vetk@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Синицкий Сергей Дмитриевич",
+          "position": "Прокурор Ветковского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-гомельского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Гомельского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "246017 г.Гомель, ул.Катунина, 24 gmo-gome@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Шинкарев Александр Михайлович",
+          "position": "Прокурор Гомельского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-добрушского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Добрушского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247054 г.Добруш, ул.Пушкина, 11 gmo-dobr@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Бобылев Антон Сергеевич",
+          "position": "Прокурор Добрушского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ельского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Ельского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247873 г.Ельск, ул.Ленинская 2а, 1 gmo-elsk@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Орлов Ростислав Леонидович",
+          "position": "Прокурор Ельского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-житковичского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Житковичского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247953 г.Житковичи, ул.Энгельса, 12 gmo-zhit@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Артёменко Игорь Анатольевич",
+          "position": "Прокурор Житковичского района  советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-жлобинского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Жлобинского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247210 г.Жлобин, ул.Петровского, 47б gmo-zhlo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Федорченко Семен Иванович",
+          "position": "Прокурор Жлобинского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-калинковичского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Калинковичского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247710 г.Калинковичи, ул.Интернациональная, 13 gmo-kali@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жулего Вадим Владимирович",
+          "position": "Прокурор Калинковичского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-кормянского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Кормянского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247173 г.п.Корма, ул.Ленина, 36а gmo-korm@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Федосик Анна Евгеньевна",
+          "position": "Прокурор Кормянского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-лельчицкого-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Лельчицкого района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247841 г.Лельчицы, ул.Коммунальная, 8 gmo-lelc@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Хотынюк Михаил Михайлович",
+          "position": "Прокурор Лельчицкого района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-лоевского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Лоевского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247095 г.Лоев, ул.Тельмана,8б gmo-loev@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Савченко Владимир Валерьевич",
+          "position": "Прокурор Лоевского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-мозырского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Мозырского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247760 г.Мозырь, ул.17 Сентября, 13 gmo-mozy@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Ткач Юрий Владимирович",
+          "position": "Прокурор Мозырского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-наровлянского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Наровлянского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247802 г.Наровля, ул.Ленина, 40 gmo-naro@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Журавский Александр Петрович",
+          "position": "Прокурор Наровлянского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-октябрьского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Октябрьского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247319 г.п.Октябрьский, ул. Ковалева, 2 gmo-okty@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Новик Анатолий Александрович",
+          "position": "Прокурор Октябрьского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-петриковского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Петриковского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247912 г.Петриков, ул.Ленинская, 2 gmo-petr@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Леончик Андрей Александрович",
+          "position": "Прокурор Петриковского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-речицкого-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Речицкого района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247483 г.Речица, ул. Конева,14 gmo-rech@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Павловский Александр Сергеевич",
+          "position": "прокурор Речицкого района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-рогачевского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Рогачевского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247673 г.Рогачев, ул.Володарского, 58 gmo-roga@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Ласица Николай Игоревич",
+          "position": "Прокурор Рогачевского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-светлогорского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Светлогорского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247434 г.Светлогорск, ул.Интернациональная, 44а gmo-svet@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Евсеенко Александр Петрович",
+          "position": "Прокурор Светлогорского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-хойникского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Хойникского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247622 г.Хойники, пер.Колхозный, 9 gmo-hoin@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Савичев Денис Анатольевич",
+          "position": "Прокурор Хойникского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-чечерского-района",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Прокуратура Чечерского района",
+      "level": "district",
+      "region": "Гомельская область",
+      "address": "247152 г.Чечерск, ул.Гагарина, 12 gmo-chec@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лапицкий Денис Юрьевич",
+          "position": "Прокурор Чечерского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "гомельская-транспортная-прокуратура",
+      "parentId": "прокуратура-гомельской-области",
+      "name": "Гомельская транспортная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Гомельская область",
+      "address": "246022 г.Гомель, ул.Шевченко, 9 btp-gome@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Судом Андрей Александрович",
+          "position": "Гомельский транспортный прокурор советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/gomelskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-гродненской-области",
+      "parentId": "general",
+      "name": "Прокуратура Гродненской области",
+      "level": "regional",
+      "region": "Гродненская область",
+      "address": "230012 г.Гродно, ул.Доватора, 2а grodno@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жуков Александр Васильевич",
+          "position": "Прокурор Гродненской области государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Щербак Евгений Михайлович",
+          "position": "Первый заместитель прокурора Гродненской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Клишин Владимир Владимирович",
+          "position": "Заместитель прокурора Гродненской области  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Силюк Павел Иванович",
+          "position": "Заместитель прокурора Гродненской области советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "гродненская-транспортная-прокуратура",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Гродненская транспортная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Гродненская область",
+      "address": "230025 г.Гродно, ул.Кирова, 33 btp-grod@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Мирошниченко Андрей Николаевич",
+          "position": "Гродненский транспортный прокурор старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-г-гродно",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура г.Гродно",
+      "level": "city",
+      "region": "Гродненская область",
+      "address": "230005 г.Гродно, ул. Дубко, 7 gro-grodg@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Иванюк Анатолий Анатольевич",
+          "position": "Прокурор г.Гродно старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-берестовицкого-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Берестовицкого района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231778 г.п. Б. Берестовица, ул.Заслонова,11 gro-bere@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Юрго Виталий Станиславович",
+          "position": "И.о. прокурора Берестовицкого района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-волковысского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Волковысского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "230415 г.Волковыск, ул.С.Панковой, 17 gro-volk@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Пецевич Александр Иванович",
+          "position": "Прокурор Волковысского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-вороновского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Вороновского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231391 г.п.Вороново, ул.Юбилейная, 48 gro-voro@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Бондарчук Алексей Сергеевич",
+          "position": "Прокурора Вороновского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-гродненского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Гродненского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "230005 г.Гродно, ул. Дубко, 7 gro-grod@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Шляжко Александр Владимирович",
+          "position": "Прокурор Гродненского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-дятловского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Дятловского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231471 г.Дятлово, ул.Победы, 11 gro-dyat@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Олешкевич Сергей Владимирович",
+          "position": "И.о. прокурора Дятловского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-зельвенского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Зельвенского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231940 г.п.Зельва, ул.Комарова, 27 gro-zelv@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Бабарика Виталий Александрович",
+          "position": "Прокурор Зельвенского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ивьевского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Ивьевского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231337 г.Ивье, ул.1 Мая,12 gro-ivie@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Широких Александр Сергеевич",
+          "position": "Прокурор Ивьевского района  юрист 1 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-кореличского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Кореличского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231432 г.п.Кореличи, ул.Железняковича, 15 gro-kore@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Авдокушин Виктор Васильевич",
+          "position": "Прокурор Кореличского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-лидского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Лидского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231291 г.Лида, ул.Мицкевича, 12 gro-lids@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Томченок Алексей Владимирович",
+          "position": "Прокурор Лидского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-мостовского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Мостовского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231592 г.Мосты, ул.Советская, 15 gro-most@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Якимович Игорь Александрович",
+          "position": "Прокурора Мостовского района юрист 1 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-новогрудского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Новогрудского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231244 г.Новогрудок, ул.Мицкевича, 13 gro-novo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Разуваев Михаил Валерьевич",
+          "position": "Прокурор Новогрудского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-островецкого-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Островецкого района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231201 г. Островец, ул.Ленинская, 13 gro-ostr@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Мысливец Никита Сергеевич",
+          "position": "Прокурор Островецкого района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ошмянского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Ошмянского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231103 г.Ошмяны, пер.Больничный, 4 gro-oshm@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лях Александр Николаевич",
+          "position": "И.о. прокурора Ошмянского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-свислочского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Свислочского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231969 г.Свислочь, ул.Ленина, 60 gro-svis@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Кизелевич Евгений Эдвардович",
+          "position": "Прокурор Свислочского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-слонимского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Слонимского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231797 г.Слоним, ул.Брестская, 40/1 gro-slon@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Дмуховский Станислав Юрьевич",
+          "position": "Прокурор Слонимского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-сморгонского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Сморгонского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231042 г.Сморгонь, ул.Танкистов, 4а gro-smor@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Гаврилюк Сергей Михайлович",
+          "position": "Прокурор Сморгонского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-щучинского-района",
+      "parentId": "прокуратура-гродненской-области",
+      "name": "Прокуратура Щучинского района",
+      "level": "district",
+      "region": "Гродненская область",
+      "address": "231513 г.Щучин, ул.Лермонтова, 21 gro-schu@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Величко Олег Валерьевич",
+          "position": "Прокурор Щучинского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/grodnenskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-минской-области",
+      "parentId": "general",
+      "name": "Прокуратура Минской области",
+      "level": "regional",
+      "region": "Минская область",
+      "address": "220053 г.Минск, ул.Щедрина, 1 minsk@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Щетько Юрий Анатольевич",
+          "position": "Прокурор Минской области, государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Рудаков Дмитрий Александрович",
+          "position": "Первый заместитель прокурора Минской области, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Белицкий Александр Леонидович",
+          "position": "Заместитель прокурора Минской области,  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Шестопалов Михаил Николаевич",
+          "position": "Заместитель прокурора Минской области,  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "минская-транспортная-прокуратура",
+      "parentId": "прокуратура-минской-области",
+      "name": "Минская транспортная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Минская область",
+      "address": "220006 г.Минск, Привокзальная площадь, 3 btp-mins@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Протасенко Александр Николаевич",
+          "position": "Минский транспортный прокурор, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-г-жодино",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура г.Жодино",
+      "level": "city",
+      "region": "Минская область",
+      "address": "222161 г. Жодино, ул. Деревянко, 14 в mno-zhod@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Волосян Андрей Викторович",
+          "position": "Прокурор города Жодино, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-березинского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Березинского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223311 г.Березино, ул.Победы, 1а mno-bere@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Вербицкий Василий Александрович",
+          "position": "Прокурор Березинского района, советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-борисовского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Борисовского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222520 г.Борисов, ул.Пролетарская, 38 mno-bori@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Макаревич Дмитрий Петрович",
+          "position": "Прокурор Борисовского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-вилейского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Вилейского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222410 г.Вилейка, ул.1 Мая, 61 mno-vile@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жуковский Андрей Валерьевич",
+          "position": "Прокурор Вилейского района, советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-воложинского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Воложинского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222357 г.Воложин, ул.Советская, 60 mno-volo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Нестерёнок Олег Альбинович",
+          "position": "Прокурор Воложинского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-дзержинского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Дзержинского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222712 г.Дзержинск, ул.Фоминых, 22а mno-dzer@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Хоняк Виталий Александрович",
+          "position": "Прокурор Дзержинского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-клецкого-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Клецкого района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222531 г.Клецк, ул.Орловского, 1а mno-klec@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жуковский Вадим Васильевич",
+          "position": "Прокурор Клецкого района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-копыльского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Копыльского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223927 г.Копыль, ул.Луговая,1 mno-kopy@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Афанасенко Виталий Михайлович",
+          "position": "Прокурор Копыльского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-крупского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Крупского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222001 г.Крупки, ул.Зайцева, 12 mno-krup@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Голенков Владимир Владимирович",
+          "position": "Прокурор Крупского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-логойского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Логойского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223141 г.Логойск, ул.Надежды Харченко, 6 mno-logo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Прокопчик Николай Николаевич",
+          "position": "Прокурор Логойского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-любанского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Любанского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223812 г.Любань, ул.Чкалова, 1 mno-loba@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Саванович Дмитрий Анатольевич",
+          "position": "Прокурор Любанского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-минского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Минского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "220007 г.Минск, ул.Московская, 11  mno-mins@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Рудишкин Алексей Леонидович",
+          "position": "Прокурор Минского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-молодечненского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Молодечненского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222304 г.Молодечно, ул.Буйницкого, 65 mno-molo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Слука Илья Олегович",
+          "position": "Прокурор Молодечненского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-мядельского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Мядельского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222397 г.Мядель, ул. 1 Мая,6 mno-myad@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Маркевич Евгений Александрович",
+          "position": "Прокурор Мядельского района, младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-несвижского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Несвижского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222603 г.Несвиж, ул.Садовая, 12а mno-nesv@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Голубович Виталий Иванович",
+          "position": "Прокурор Несвижского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-пуховичского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Пуховичского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222811 г.Марьина Горка, ул.Восточная, 5Б mno-puho@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лугин Дмитрий Анатольевич",
+          "position": "Прокурор Пуховичского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-слуцкого-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Слуцкого района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223607 г.Слуцк, ул.Уласовца, 8а mno-sluc@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Левша Артём Николаевич",
+          "position": "Прокурор Слуцкого района, советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-смолевичского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Смолевичского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222201 г.Смолевичи, ул.Советская 134/1 mno-smol@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Мойсак Павел Викторович",
+          "position": "Прокурор Смолевичского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-солигорского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Солигорского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223702 г.Солигорск, ул.Железнодорожная, 28а mno-soli@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Дешук Дмитрий Сергеевич",
+          "position": "Прокурор Солигорского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-стародорожского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Стародорожского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222910 г.Старые Дороги, ул.Карла Маркса, 31а mno-star@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Михалкович Дмитрий Сергеевич",
+          "position": "Прокурор Стародорожского района, младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-столбцовского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Столбцовского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "222666 г.Столбцы, ул.Царюка, 9 mno-stol@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Алисевич Александр Анатольевич",
+          "position": "Прокурор Столбцовского района, старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-узденского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Узденского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223411 г.Узда, ул.Степанова, 19 mno-uzde@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Дубовик Василий Владимирович",
+          "position": "Прокурор Узденского района, советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-червенского-района",
+      "parentId": "прокуратура-минской-области",
+      "name": "Прокуратура Червенского района",
+      "level": "district",
+      "region": "Минская область",
+      "address": "223232 г.Червень, ул.Луначарского, 34а mno-cher@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Пастухов Виктор Дмитриевич",
+          "position": "Прокурор Червенского района, младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/minskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-могилевской-области",
+      "parentId": "general",
+      "name": "Прокуратура Могилёвской области",
+      "level": "regional",
+      "region": "Могилёвская область",
+      "address": "212030 г.Могилев, ул.Добролюбова, 6 mogilev@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Куликович Валерий Леонардович",
+          "position": "Прокурор Могилевской области  государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Клышевич Андрей Антонович",
+          "position": "Первый заместитель прокурора Могилевской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Волков Андрей Николаевич",
+          "position": "Заместитель прокурора Могилевской области старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "могилевская-транспортная-прокуратура",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Могилевская транспортная прокуратура",
+      "level": "specialized-or-interdistrict",
+      "region": "Могилёвская область",
+      "address": "212030 г. Могилев, ул. Добролюбова, 6 btp-mogi@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Вульвач Николай Борисович",
+          "position": "Могилевский транспортный прокурор старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-г-могилева",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура г.Могилева",
+      "level": "city",
+      "region": "Могилёвская область",
+      "address": "212030 г.Могилев, ул.Добролюбова,6 mgo-mogig@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Боровский Александр Геннадьевич",
+          "position": "Прокурор г.Могилева старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-г-бобруйска",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура г.Бобруйска",
+      "level": "city",
+      "region": "Могилёвская область",
+      "address": "213828 г.Бобруйск, ул.Минская, 98 mgo-bobrg@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Конецкий Александр Иванович",
+          "position": "Прокурор г.Бобруйска старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-белыничского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Белыничского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213051 г.Белыничи, ул.Садовая, 32 mgo-bely@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Алёхно Игорь Васильевич",
+          "position": "Прокурор Белыничского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-бобруйского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Бобруйского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213828 г.Бобруйск, ул.Минская, 98 mgo-bobr@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Ярмак Геннадий Сергеевич",
+          "position": "Прокурор Бобруйского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-быховского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Быховского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213352 г.Быхов, ул.Пушкина, 39 mgo-byho@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Богомазов Сергей Александрович",
+          "position": "Прокурор Быховского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-глусского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Глусского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213879 г.п.Глуск, ул.Первомайская, 15а mgo-glus@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Ларкин Андрей Тимофеевич",
+          "position": "Прокурор Глусского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-горецкого-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Горецкого района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213404 г.Горки, ул.Сурганова, 14 mgo-gore@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Тарасюк Александр Николаевич",
+          "position": "Прокурор Горецкого района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-дрибинского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Дрибинского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213971 г.п.Дрибин, ул.Советская, 8 mgo-drib@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Сидоркин Александр Анатольевич",
+          "position": "Прокурор Дрибинского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-кировского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Кировского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213931 г.Кировск, ул.Кирова, 72 mgo-kiro@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Терещенко Александр Александрович",
+          "position": "Прокурор Кировского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-климовичского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Климовичского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213633 г.Климовичи, ул.Интернациональная, 19 mgo-klim@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лимаров Олег Сергеевич",
+          "position": "Прокурор Климовичского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-кличевского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Кличевского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213910 г.Кличев, ул.Пролетарская, 62а mgo-klic@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Чучулин Вячеслав Викторович",
+          "position": "Прокурор Кличевского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-костюковичского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Костюковичского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213653 г.Костюковичи, ул.Советская, 2 mgo-kost@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Булахов Сергей Олегович",
+          "position": "Прокурор Костюковичского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-краснопольского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Краснопольского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213561 г.п.Краснополье, ул.Калинина, 68 mgo-kras@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Алексютина Зоя Михайловна",
+          "position": "Прокурор Краснопольского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-кричевского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Кричевского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213498 г.Кричев, ул.Луначарского, 4 mgo-kric@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Прохоренко Станислав Михайлович",
+          "position": "Прокурор Кричевского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-круглянского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Круглянского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213188 г.Круглое, ул.Парковая, 36 mgo-krug@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Романов Александр Валерьевич",
+          "position": "Прокурор Круглянского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-могилевского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Могилевского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "212030 г.Могилев, ул.Добролюбова, 6 mgo-mogi@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Ивутин Евгений Валентинович",
+          "position": "Прокурор Могилевского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-мстиславского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Мстиславского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213453 г.Мстиславль, ул.Первомайская, 18а mgo-msti@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Автухов Юрий Викторович",
+          "position": "Прокурор Мстиславского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-осиповичского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Осиповичского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213765 г.Осиповичи, ул.Ленинская, 45 mgo-osip@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Иваньков Денис Валерьевич",
+          "position": "Прокурор Осиповичского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-славгородского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Славгородского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213245 г.Славгород, ул.Первомайская, 2 mgo-slav@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Горохов Артур Сергеевич",
+          "position": "Прокурор Славгородского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-хотимского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Хотимского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213677 г.п.Хотимск, ул.Ленинская, 4 mgo-hoti@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Еремин Егор Олегович",
+          "position": "прокурор Хотимского района младший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-чаусского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Чаусского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213206 г.Чаусы, ул.Первомайская, 11 mgo-chau@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Кузьменков Алексей Александрович",
+          "position": "Прокурор Чаусского района советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-чериковского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Чериковского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213533 г.Чериков, ул.Володарского, 31 mgo-cher@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Галалобов Дмитрий Иванович",
+          "position": "Прокурор Чериковского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-шкловского-района",
+      "parentId": "прокуратура-могилевской-области",
+      "name": "Прокуратура Шкловского района",
+      "level": "district",
+      "region": "Могилёвская область",
+      "address": "213004 г.Шклов, ул.Почтовая, 25а mgo-shkl@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Алданова Ирина Николаевна",
+          "position": "Прокурор Шкловского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/mogilevskaya-oblast/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-города-минска",
+      "parentId": "general",
+      "name": "Прокуратура города Минска",
+      "level": "regional",
+      "region": "г. Минск",
+      "address": "220004 г. Минск, ул.Раковская, 38 minskg@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лаврухин Олег Владимирович",
+          "position": "Прокурор города Минска государственный советник юстиции 3 класса",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Кежун Казимир Адамович",
+          "position": "Первый заместитель прокурора города Минска старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Куратник Сергей Александрович",
+          "position": "Заместитель прокурора города Минска  старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Кулаковский Александр Николаевич",
+          "position": "Заместитель прокурора города Минска старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-заводского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Заводского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220118 г.Минск, ул.Кабушкина, 46 mng-zavo@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Жегалик Андрей Вячеславович",
+          "position": "Прокурор Заводского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://zav.minsk.gov.by/zakonnost-i-pravoporjadok/prokuratura-zavodskogo-rajona-g-minska",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-ленинского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Ленинского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220030 г.Минск, ул.Красноармейская, 34 mng-leni@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Лукьянов Дмитрий Леонидович",
+          "position": "Прокурор Ленинского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Мазаник Александр Петрович",
+          "position": "Заместитель прокурора района",
+          "sourceUrl": "https://lenadmin.gov.by/administrativno-pravovye-i-pravookhranitelnye-struktury/prokuratura-leninskogo-rajona-g-minska",
+          "checkedAt": "2026-11-07",
+          "publishedAt": null
+        },
+        {
+          "name": "Криворот Елена Михайловна",
+          "position": "Заместитель прокурора района",
+          "sourceUrl": "https://lenadmin.gov.by/administrativno-pravovye-i-pravookhranitelnye-struktury/prokuratura-leninskogo-rajona-g-minska",
+          "checkedAt": "2026-11-07",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://lenadmin.gov.by/administrativno-pravovye-i-pravookhranitelnye-struktury/prokuratura-leninskogo-rajona-g-minska",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-московского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Московского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220036 г.Минск, 2-й пер.Р.Люксембург, 4/2 mng-mosk@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Гавриленко Дмитрий Викторович",
+          "position": "Прокурор Московского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Антоник Петр Николаевич",
+          "position": "Заместитель прокурора района",
+          "sourceUrl": "https://mosk.minsk.gov.by/sluzhby-i-podrazdeleniya/prokuratura",
+          "checkedAt": "2026-11-07",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://mosk.minsk.gov.by/sluzhby-i-podrazdeleniya/prokuratura",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-октябрьского-района-minsk-city",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Октябрьского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220039 г.Минск, ул.Авакяна, 32 mng-okty@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Кондаревич Олег Васильевич",
+          "position": "Прокурор Октябрьского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-партизанского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Партизанского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220088 г.Минск, ул.Ивановская, 39 mng-part@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Проневич Виктор Юрьевич",
+          "position": "Прокурор Партизанского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-первомайского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Первомайского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220141 г.Минск, ул.Руссиянова, 8 mng-perv@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Борисенко Сергей Владимирович",
+          "position": "Прокурор Первомайского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        },
+        {
+          "name": "Палазник Евгений Васильевич",
+          "position": "Заместитель прокурора района",
+          "sourceUrl": "https://pervadmin.gov.by/ru/zakonnost-pravoporyadok/prokuratura",
+          "checkedAt": "2026-11-07",
+          "publishedAt": null
+        },
+        {
+          "name": "Касабуцкий Олег Игоревич",
+          "position": "Заместитель прокурора Первомайского района г. Минска",
+          "sourceUrl": "https://pervadmin.gov.by/ru/zakonnost-pravoporyadok/prokuratura",
+          "checkedAt": "2026-11-07",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://pervadmin.gov.by/ru/zakonnost-pravoporyadok/prokuratura",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-советского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Советского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220005 г.Минск, пр.Независимости, 46 mng-sove@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Загоровский Антон Владимирович",
+          "position": "Прокурор Советского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-фрунзенского-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Фрунзенского района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220082 г.Минск, ул.Д.Сердича, 12 mng-frun@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Мурашко Андрей Владиславович",
+          "position": "Прокурор Фрунзенского района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    },
+    {
+      "id": "прокуратура-центрального-района",
+      "parentId": "прокуратура-города-минска",
+      "name": "Прокуратура Центрального района",
+      "level": "district",
+      "region": "г. Минск",
+      "address": "220035 г. Минск, ул.Гастелло, 11 mng-cent@prokuratura.gov.by",
+      "officials": [
+        {
+          "name": "Трайковский Юрий Викторович",
+          "position": "Прокурор Центрального района старший советник юстиции",
+          "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+          "checkedAt": "2026-11-08",
+          "publishedAt": null
+        }
+      ],
+      "sourceUrl": "https://prokuratura.gov.by/ru/contacts/g-minsk/",
+      "checkedAt": "2026-11-08",
+      "publishedAt": null,
+      "status": "ФИО должностных лиц извлечены из таблицы «Личный прием» официальной страницы прокуратуры области; дата публикации страницы не указана."
+    }
+  ]
+}

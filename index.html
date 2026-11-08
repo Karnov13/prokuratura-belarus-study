@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243b">
+  <meta name="description" content="Учебный навигатор по системе прокуратуры Республики Беларусь: структура, обращения, служба, направления деятельности и интерактивы.">
+  <title>Прокуратура Республики Беларусь — учебный навигатор</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./scripts/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К основному содержанию</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="academy-identity">
+        <img src="./assets/academy-symbol-user-selected.png" alt="" width="128" height="67">
+        <span class="academy-caption">Академия управления<br>при Президенте<br>Республики Беларусь</span>
+      </div>
+      <a class="brand" href="#/structure" aria-label="Учебный навигатор — структура прокуратуры">
+        <span><span class="brand-kicker">Учебный навигатор</span><strong>Прокуратура<br>Республики Беларусь</strong></span>
+      </a>
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Меню <span aria-hidden="true">☰</span></button>
+    </div>
+    <nav id="main-nav" class="main-nav" aria-label="Основные разделы">
+      <a href="#/structure"><span>01</span> Структура</a>
+      <a href="#/appeals"><span>02</span> Обращение</a>
+      <a href="#/career"><span>03</span> Поступление</a>
+      <a href="#/activities"><span>04</span> Направления деятельности прокуратуры</a>
+      <a href="#/interactive"><span>05</span> Интерактивы</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="loading-state" role="status">Загружаем учебные материалы…</div>
+  </main>
+  <!-- STATIC_FALLBACK -->
+  <footer class="site-footer">
+    <p>Учебный проект<br><span>Материалы для знакомства с системой прокуратуры. Официальные сведения — в указанных источниках.</span></p>
+    <p class="author"><strong>Дюбкина Дарья Дмитриевна</strong><br><span>Создатель и автор идеи</span></p>
+  </footer>
+</body>
+</html>

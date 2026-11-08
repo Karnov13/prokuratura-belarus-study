@@ -1,0 +1,9 @@
+dist/
+node_modules/
+unused-never/
+docs/implementation.diff
+/assets/academy-symbol-restored-candidate*.png
+/assets/candidate-*
+/docs/_audit-*
+/docs/*research*.html
+/docs/*raw*.html
