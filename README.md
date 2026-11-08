@@ -19,11 +19,11 @@ python -m http.server 4173 --bind 127.0.0.1 --directory dist
 
 ## Публикация на GitHub Pages
 
-Состояние на **08.11.2026**: репозиторий [Karnov13/prokuratura-belarus-study](https://github.com/Karnov13/prokuratura-belarus-study) создан, origin подключён. GitHub Pages настроен через официальный REST API с `build_type: workflow`, но **сайт ещё не опубликован**: commit/push и deployment не выполнялись.
+Состояние на **08.11.2026**: репозиторий [Karnov13/prokuratura-belarus-study](https://github.com/Karnov13/prokuratura-belarus-study) создан, origin подключён. GitHub Pages настроен через официальный REST API с `build_type: workflow`. **Сайт опубликован**: выпускной коммит `e68b5c956bac8126a3ff555d82265683936b9ae0`, [deployment workflow](https://github.com/Karnov13/prokuratura-belarus-study/actions/runs/42458549958) завершился успешно.
 
-Адрес Pages: [https://karnov13.github.io/prokuratura-belarus-study/](https://karnov13.github.io/prokuratura-belarus-study/). Доступность сайта по этому адресу проверяется после успешного deployment.
+Адрес Pages: [https://karnov13.github.io/prokuratura-belarus-study/](https://karnov13.github.io/prokuratura-belarus-study/). 08.11.2026 реализатор и оркестратор подтвердили HTTP 200 для страницы, CSS, обоих JS, обоих JSON и выбранного PNG; содержимое соответствует выпускному коммиту.
 
-Выпускная сборка локально подготовлена 08.11.2026: 149 органов, ФИО у 148 органов, всего 176 лиц. По прокуратуре Брестского района подтверждённые ФИО отсутствуют из-за недоступности официального сайта; пробел явно обозначен. Тесты 12/12, валидация данных и сборка прошли. После проверки выпускного diff:
+Выпускная сборка локально подготовлена 08.11.2026: 149 органов, ФИО у 148 органов, всего 176 лиц. По прокуратуре Брестского района подтверждённые ФИО отсутствуют из-за недоступности официального сайта; пробел явно обозначен. Тесты 12/12, валидация данных и сборка прошли. Для последующих обновлений:
 
 1. При последующих изменениях повторите `node --test` и `node scripts/build.mjs`; текущий dist уже собран из окончательных данных.
 2. Отправьте проверенные исходники в основную ветку `main`. Workflow `.github/workflows/pages.yml` запускается при push в `main` либо вручную через Actions → Deploy educational site to GitHub Pages → Run workflow.
@@ -53,4 +53,4 @@ python -m http.server 4173 --bind 127.0.0.1 --directory dist
 
 `node --test` использует встроенный Node test runner. На 08.11.2026 реализатор и оркестратор независимо подтвердили 12/12 PASS и syntax PASS для app/logic/build. Тесты проверяют глубокие ссылки, поиск/фильтры и предков, циклы, квиз, нормализацию ответов, данные, безопасные ссылки, мобильное Escape, состав сборки и неизменность выбранного изображения.
 
-Браузерные проверки 07.11 относятся к прежнему изображению и снимку данных. 08.11 отдельно проверен файл выбранного PNG и его SHA256; новая визуальная проверка страницы не заявляется. История и оставшиеся проверки — `docs/qa-review.md` и `docs/implementation-report.md`. Итоговый каталог и явный пробел описаны в разделе публикации выше.
+Исторические браузерные проверки 07.11 отделены от повторной проверки опубликованного сайта 08.11: viewport 360 (client 345) и 1440 (client 1425), без горизонтального переполнения; PNG 96×50/128×67, мобильное меню и загадка «Прокурор» работают, console warn/error отсутствуют. [Снимок опубликованного сайта](docs/public-site-desktop.jpg). История — `docs/qa-review.md` и `docs/implementation-report.md`. Firefox и NVDA не проверены; единственный пробел ФИО указан выше.
