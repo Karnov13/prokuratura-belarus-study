@@ -21,8 +21,8 @@ function link(url, label = 'Официальный источник') {
 }
 function sourcesFor(item) {
   const sources = (item.sourceIds || []).map(id => content.sources.find(source => source.id === id)).filter(Boolean);
-  if (!sources.length && !item.sourceUrl) return '';
-  return `<details class="source-links"><summary>Источники</summary>${sources.map(source => `<div class="source-note"><p>Источник: ${link(source.url, source.title)}</p>${source.status ? `<p>${esc(source.status)}</p>` : ''}<p>Источник просмотрен: ${date(source.checkedAt)}</p></div>`).join('')}${item.sourceUrl ? `<p>${link(item.sourceUrl)}</p>` : ''}</details>`;
+  if (!sources.length && !item.sourceUrl && !item.readerNote) return '';
+  return `<details class="source-links"><summary>Источники</summary>${item.readerNote ? `<p>${esc(item.readerNote)}</p>` : ''}${sources.map(source => `<div class="source-note"><p>Источник: ${link(source.url, source.title)}</p>${source.readerStatus ? `<p>${esc(source.readerStatus)}</p>` : ''}<p>Источник просмотрен: ${date(source.checkedAt)}</p></div>`).join('')}${item.sourceUrl ? `<p>${link(item.sourceUrl)}</p>` : ''}</details>`;
 }
 function pageHeading(route) {
   return `<section class="page-heading" aria-labelledby="page-title"><h1 id="page-title">${titles[route]}</h1></section>`;
@@ -87,7 +87,7 @@ function renderStructure() {
 
 function renderReading(route) {
   const items = content[route];
-  main.insertAdjacentHTML('beforeend', `<section class="reading-layout" aria-label="Материалы раздела"><aside class="reading-nav" aria-label="Содержание раздела"><details class="reading-toc" ${readingWideScreen.matches ? 'open' : ''}><summary>Содержание</summary><ul>${items.map((item, index) => `<li><a href="#/${route}?section=section-${index}" data-section="section-${index}">${esc(item.title)}</a></li>`).join('')}</ul></details></aside><div class="reading-content">${route === 'appeals' ? '<p class="appeal-notice">Сайт не принимает обращения</p>' : ''}${items.map((item, index) => `<article id="section-${index}" class="reading-card"><h2>${esc(item.title)}</h2>${paragraphs(item.body)}${item.items?.length ? `<ul>${item.items.map(text => `<li>${esc(text)}</li>`).join('')}</ul>` : ''}${item.verificationStatus ? `<p class="verification-note">${esc(item.verificationStatus)}</p>` : ''}${sourcesFor(item)}</article>`).join('')}${items.length ? '' : '<p class="empty-state">Материалы этого раздела готовятся.</p>'}</div></section>`);
+  main.insertAdjacentHTML('beforeend', `<section class="reading-layout" aria-label="Материалы раздела"><aside class="reading-nav" aria-label="Содержание раздела"><details class="reading-toc" ${readingWideScreen.matches ? 'open' : ''}><summary>Содержание</summary><ul>${items.map((item, index) => `<li><a href="#/${route}?section=section-${index}" data-section="section-${index}">${esc(item.title)}</a></li>`).join('')}</ul></details></aside><div class="reading-content">${route === 'appeals' ? '<p class="appeal-notice">Сайт не принимает обращения</p>' : ''}${items.map((item, index) => `<article id="section-${index}" class="reading-card"><h2>${esc(item.title)}</h2>${paragraphs(item.body)}${item.items?.length ? `<ul>${item.items.map(text => `<li>${esc(text)}</li>`).join('')}</ul>` : ''}${item.readerNotice ? `<p class="verification-note">${esc(item.readerNotice)}</p>` : ''}${sourcesFor(item)}</article>`).join('')}${items.length ? '' : '<p class="empty-state">Материалы этого раздела готовятся.</p>'}</div></section>`);
 }
 
 function renderInteractive() {
