@@ -37,7 +37,7 @@ test('Pages bundle contains only website files and readable escaped fallback', a
     assert.match(html, /<img[^>]*src="\.\/assets\/rebuses\/rebus-a\.jpg"[^>]*alt="Изображение ребуса"/);
     assert.match(html, /<details class="rebus-disclosure">\s*<summary><span[^>]*>Показать ответ<\/span>.*?Закон.*?<\/details>/s);
     const interactive = html.slice(html.indexOf('id="fallback-interactive"'));
-    assert.match(interactive, /href="#fallback-rebuses-block">Ребусы<\/a>.*?href="#fallback-riddles-block">Загадки<\/a>/s);
+    assert.match(interactive, /href="#fallback-rebuses-block">Ребусы<\/a>.*?href="#fallback-riddles-block">Вопросы<\/a>/s);
     assert.match(interactive, /id="fallback-rebuses-block".*?id="fallback-riddles-block"/s);
     assert.match(interactive, /Вопрос &lt;важный&gt;.*?<details class="rebus-disclosure">.*?Первый ответ.*?<\/details>.*?Второй вопрос.*?<details class="rebus-disclosure">.*?Второй ответ.*?<\/details>/s);
     assert.match(html, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);

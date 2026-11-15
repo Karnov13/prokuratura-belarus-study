@@ -29,7 +29,7 @@ export function renderInteractiveContent({ rebuses, riddles = [] }, { fallback =
       <p class="riddle-question">${escapeText(question)}</p>
       ${answerDisclosure(answer)}
     </li>`).join('');
-    groups.push({ id: 'riddles-block', title: 'Загадки', body: `<ul class="riddles-list">${items}</ul>` });
+    groups.push({ id: 'riddles-block', title: 'Вопросы', body: `<ul class="riddles-list">${items}</ul>` });
   }
   const prefix = fallback ? 'fallback-' : '';
   const route = fallback ? `#${prefix}` : '#/interactive?section=';
