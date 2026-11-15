@@ -15,11 +15,6 @@ export function normalizeAnswer(value) {
     .replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 }
 
-export function checkAnswer(value, answers) {
-  const normalized = normalizeAnswer(value);
-  return Boolean(normalized) && answers.some(answer => normalizeAnswer(answer) === normalized);
-}
-
 export function filterOffices(offices, { query = '', region = '', level = '' } = {}) {
   const words = normalizeAnswer(query).split(' ').filter(Boolean);
   const matches = offices.filter(office => {
@@ -40,13 +35,6 @@ export function filterOffices(offices, { query = '', region = '', level = '' } =
   return { matches, visible: offices.filter(office => visibleIds.has(office.id)) };
 }
 
-export function gradeQuiz(quiz, answers) {
-  const complete = quiz.length > 0 && quiz.every((question, index) =>
-    Number.isInteger(answers[index]) && answers[index] >= 0 && answers[index] < question.options.length);
-  const correct = quiz.map((question, index) => answers[index] === question.answerIndex);
-  return { complete, score: complete ? correct.filter(Boolean).length : 0, total: quiz.length, correct };
-}
-
 export function validateStructure(data) {
   if (!data || !Array.isArray(data.offices)) throw new Error('Invalid offices');
   const ids = new Set();
@@ -62,16 +50,17 @@ export function validateStructure(data) {
 }
 
 export function validateContent(data) {
-  for (const key of ['appeals', 'career', 'activities', 'quiz', 'riddles', 'rebuses', 'sources']) {
+  for (const key of ['appeals', 'career', 'activities', 'rebuses', 'sources']) {
     if (!Array.isArray(data?.[key])) throw new Error(`Invalid collection: ${key}`);
   }
-  for (const question of data.quiz) {
-    if (typeof question.question !== 'string' || !Array.isArray(question.options)
-      || question.options.length < 2 || !Number.isInteger(question.answerIndex)
-      || question.answerIndex < 0 || question.answerIndex >= question.options.length) throw new Error('Invalid quiz');
-  }
-  for (const puzzle of [...data.riddles, ...data.rebuses]) {
-    if (!puzzle.prompt || !Array.isArray(puzzle.answers) || !puzzle.answers.some(answer => normalizeAnswer(answer))) throw new Error('Invalid puzzle');
+  const ids = new Set();
+  for (const rebus of data.rebuses) {
+    if (!rebus || typeof rebus.id !== 'string' || !/^rebus-[a-z0-9]+$/.test(rebus.id)
+      || !Number.isSafeInteger(rebus.width) || rebus.width < 1
+      || !Number.isSafeInteger(rebus.height) || rebus.height < 1
+      || typeof rebus.answer !== 'string' || !rebus.answer.trim()) throw new Error('Invalid rebus');
+    if (ids.has(rebus.id)) throw new Error(`Duplicate rebus: ${rebus.id}`);
+    ids.add(rebus.id);
   }
   return data;
 }

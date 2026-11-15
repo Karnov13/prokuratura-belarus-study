@@ -1,4 +1,5 @@
-import { routeFromHash, sectionFromHash, filterOffices, gradeQuiz, checkAnswer, safeUrl, officeDepth, validateStructure, validateContent, bindMobileMenu } from './logic.js';
+import { routeFromHash, sectionFromHash, filterOffices, safeUrl, officeDepth, validateStructure, validateContent, bindMobileMenu } from './logic.js';
+import { renderRebuses } from './rebuses.js';
 
 const main = document.querySelector('#main');
 const navigation = document.querySelector('#main-nav');
@@ -91,43 +92,7 @@ function renderReading(route) {
 }
 
 function renderInteractive() {
-  main.insertAdjacentHTML('beforeend', `<section class="interactive-intro" aria-label="Виды заданий"><div class="interactive-links"><a href="#/interactive?section=quiz-block" data-jump="quiz-block">Тесты <span>${content.quiz.length} вопросов</span></a><a href="#/interactive?section=riddles-block" data-jump="riddles-block">Загадки <span>${content.riddles.length} заданий</span></a><a href="#/interactive?section=rebuses-block" data-jump="rebuses-block">Ребусы <span>${content.rebuses.length} заданий</span></a></div></section><section id="quiz-block" class="quiz-section"><div class="section-heading"><h2>Тесты</h2><span>Выберите один ответ</span></div><form id="quiz-form">${content.quiz.map((question, index) => `<fieldset class="question-card"><legend>${esc(question.question)}</legend>${question.options.map((option, optionIndex) => `<label class="answer-option"><input type="radio" name="q${index}" value="${optionIndex}" required><span>${esc(option)}</span></label>`).join('')}<div id="feedback-${index}"></div></fieldset>`).join('')}<div class="quiz-actions"><button type="submit">Проверить ответы</button><button type="reset" class="secondary-button">Пройти заново</button><p id="quiz-progress" role="status" aria-live="polite">Отвечено: 0 из ${content.quiz.length}</p></div><div id="quiz-result" class="quiz-result" aria-live="polite" tabindex="-1"></div></form></section>${renderPuzzles('riddles', 'Загадки')}${renderPuzzles('rebuses', 'Ребусы')}`);
-  const form = main.querySelector('#quiz-form');
-  form.addEventListener('change', () => {
-    main.querySelector('#quiz-progress').textContent = `Отвечено: ${new Set([...form.querySelectorAll('input:checked')].map(input => input.name)).size} из ${content.quiz.length}`;
-  });
-  form.addEventListener('submit', event => {
-    event.preventDefault();
-    const values = new FormData(form);
-    const result = gradeQuiz(content.quiz, content.quiz.map((_, index) => values.has(`q${index}`) ? Number(values.get(`q${index}`)) : undefined));
-    const resultElement = main.querySelector('#quiz-result');
-    if (!result.complete) { resultElement.textContent = 'Ответьте на все вопросы, чтобы получить результат.'; resultElement.focus(); return; }
-    resultElement.innerHTML = `<h3>Ваш результат: ${result.score} из ${result.total}</h3>`;
-    content.quiz.forEach((question, index) => {
-      main.querySelector(`#feedback-${index}`).innerHTML = `<div class="answer-feedback ${result.correct[index] ? 'correct' : 'incorrect'}"><strong>${result.correct[index] ? 'Верно' : 'Есть ошибка'}</strong><p>Правильный ответ: ${esc(question.options[question.answerIndex])}</p>${paragraphs(question.explanation)}${sourcesFor(question)}</div>`;
-    });
-    form.querySelectorAll('input').forEach(input => { input.disabled = true; });
-    form.querySelector('button[type="submit"]').disabled = true;
-    resultElement.focus();
-  });
-  form.addEventListener('reset', () => {
-    form.querySelectorAll('input').forEach(input => { input.disabled = false; });
-    form.querySelector('button[type="submit"]').disabled = false;
-    content.quiz.forEach((_, index) => { main.querySelector(`#feedback-${index}`).innerHTML = ''; });
-    main.querySelector('#quiz-result').innerHTML = '';
-    main.querySelector('#quiz-progress').textContent = `Отвечено: 0 из ${content.quiz.length}`;
-    requestAnimationFrame(() => form.querySelector('input')?.focus());
-  });
-  main.querySelectorAll('.puzzle-form').forEach(puzzleForm => puzzleForm.addEventListener('submit', event => {
-    event.preventDefault();
-    const puzzle = content[puzzleForm.dataset.kind][Number(puzzleForm.dataset.index)];
-    const answer = new FormData(puzzleForm).get('answer');
-    puzzleForm.querySelector('.puzzle-feedback').textContent = checkAnswer(answer, puzzle.answers) ? `Верно! ${puzzle.explanation || ''}` : 'Пока не совпало. Попробуйте ещё раз или откройте подсказку.';
-  }));
-}
-
-function renderPuzzles(kind, title) {
-  return `<section id="${kind}-block" class="puzzles-section"><div class="section-heading"><h2>${title}</h2><span>${content[kind].length} заданий</span></div><div class="puzzles-grid">${content[kind].map((puzzle, index) => `<article class="puzzle-card"><h3>${esc(puzzle.prompt)}</h3><form class="puzzle-form" data-kind="${kind}" data-index="${index}"><label for="${kind}-answer-${index}">Ваш ответ</label><div class="answer-row"><input id="${kind}-answer-${index}" name="answer" required autocomplete="off"><button type="submit">Проверить</button></div><p class="puzzle-feedback" aria-live="polite"></p></form><details><summary>Подсказка</summary><p>${esc(puzzle.hint)}</p></details><details><summary>Показать решение</summary><p><strong>${esc(puzzle.answers[0])}</strong></p>${paragraphs(puzzle.explanation)}</details></article>`).join('')}</div></section>`;
+  main.insertAdjacentHTML('beforeend', `<section id="rebuses-block" aria-label="Ребусы">${renderRebuses(content.rebuses)}</section>`);
 }
 
 function render() {
@@ -176,7 +141,7 @@ document.querySelector('.skip-link').addEventListener('click', event => {
 });
 main.addEventListener('click', event => {
   if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-  const anchor = event.target.closest('a[data-section],a[data-jump]');
+  const anchor = event.target.closest('a[data-section]');
   if (anchor?.hash === location.hash) { event.preventDefault(); jumpToSection(); }
 });
 window.addEventListener('hashchange', () => {

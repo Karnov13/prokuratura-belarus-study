@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { routeFromHash, sectionFromHash, normalizeAnswer, checkAnswer, filterOffices, gradeQuiz, validateStructure, validateContent, safeUrl, officeDepth, bindMobileMenu } from '../scripts/logic.js';
+import { routeFromHash, sectionFromHash, normalizeAnswer, filterOffices, validateStructure, validateContent, safeUrl, officeDepth, bindMobileMenu } from '../scripts/logic.js';
 
 test('unknown and malformed deep links safely select structure', () => {
   assert.equal(routeFromHash('#/career'), 'career');
@@ -11,18 +11,15 @@ test('unknown and malformed deep links safely select structure', () => {
 test('copied reading and exercise links retain both page and target after reload', () => {
   assert.equal(routeFromHash('#/career?section=section-2'), 'career');
   assert.equal(sectionFromHash('#/career?section=section-2'), 'section-2');
-  assert.equal(routeFromHash('#/interactive?section=quiz-block'), 'interactive');
-  assert.equal(sectionFromHash('#/interactive?section=quiz-block'), 'quiz-block');
+  assert.equal(routeFromHash('#/interactive?section=rebuses-block'), 'interactive');
+  assert.equal(sectionFromHash('#/interactive?section=rebuses-block'), 'rebuses-block');
   assert.equal(sectionFromHash('#/appeals'), '');
   assert.equal(sectionFromHash('#/appeals?section=%3Cscript%3E'), '');
   assert.equal(sectionFromHash('#/appeals?section=%E0%A4%A'), '');
 });
 
-test('answers ignore punctuation, case and ё while rejecting empty input', () => {
+test('search terms ignore punctuation, case and ё', () => {
   assert.equal(normalizeAnswer('  ЁЖ — ответ! '), 'еж ответ');
-  assert.equal(checkAnswer('  ПРОКУРОР! ', ['прокурор']), true);
-  assert.equal(checkAnswer('', ['']), false);
-  assert.equal(checkAnswer('неверно', ['прокурор']), false);
 });
 
 const offices = [
@@ -44,24 +41,20 @@ test('filters intersect and cycles cannot trap hierarchy traversal', () => {
   assert.equal(filterOffices(cycle, { query: 'иванов' }).visible.length, 3);
 });
 
-test('quiz rejects missing or out of range answers and reports wrong answers', () => {
-  const quiz = [{ options: ['a', 'b'], answerIndex: 1 }, { options: ['a', 'b'], answerIndex: 0 }];
-  assert.equal(gradeQuiz(quiz, [1, undefined]).complete, false);
-  assert.equal(gradeQuiz(quiz, [1, 3]).complete, false);
-  assert.deepEqual(gradeQuiz(quiz, [1, 1]), { complete: true, score: 1, total: 2, correct: [true, false] });
-});
-
 test('structure validator detects duplicate IDs and missing parents', () => {
   assert.doesNotThrow(() => validateStructure({ offices }));
   assert.throws(() => validateStructure({ offices: [...offices, offices[0]] }), /Duplicate/);
   assert.throws(() => validateStructure({ offices: [{ ...offices[0], parentId: 'absent' }] }), /parent/);
 });
 
-test('content validates quiz answers and puzzle collections before rendering', () => {
-  const content = { appeals: [], career: [], activities: [], quiz: [{ question: 'Q', options: ['A', 'B'], answerIndex: 0 }], riddles: [], rebuses: [], sources: [] };
+test('content requires safe, unique rebus IDs, valid image sizes and answers', () => {
+  const rebus = { id: 'rebus-a', width: 1280, height: 640, answer: 'Закон' };
+  const content = { appeals: [], career: [], activities: [], rebuses: [rebus], sources: [] };
   assert.doesNotThrow(() => validateContent(content));
-  assert.throws(() => validateContent({ ...content, quiz: [{ ...content.quiz[0], answerIndex: 3 }] }), /quiz/);
-  assert.throws(() => validateContent({ ...content, riddles: [{ prompt: 'Q', answers: [] }] }), /puzzle/);
+  assert.throws(() => validateContent({ ...content, rebuses: [{ ...rebus, id: '../outside' }] }), /rebus/i);
+  assert.throws(() => validateContent({ ...content, rebuses: [{ ...rebus, height: 0 }] }), /rebus/i);
+  assert.throws(() => validateContent({ ...content, rebuses: [{ ...rebus, answer: ' ' }] }), /rebus/i);
+  assert.throws(() => validateContent({ ...content, rebuses: [rebus, rebus] }), /duplicate/i);
 });
 
 test('source links reject executable and relative URLs', () => {

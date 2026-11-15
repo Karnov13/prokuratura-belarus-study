@@ -31,7 +31,6 @@ button.secondary-button:hover, button.text-button:hover { background: var(--sele
 button.text-button { border-color: transparent; text-decoration: underline; }
 input:not([type="radio"]), select { width: 100%; min-height: 48px; border: 1px solid var(--control-border); border-radius: 6px; padding: 10px 12px; background: #fff; color: var(--ink); font-size: 1.125rem; line-height: 1.8125rem; }
 input::placeholder { color: var(--muted); opacity: 1; }
-input[type="radio"] { width: 20px; height: 20px; flex-shrink: 0; margin: 3px 0 0; accent-color: var(--navy); }
 label { display: block; color: var(--ink); font-size: 1rem; line-height: 1.5rem; font-weight: 600; }
 label input, label select { display: block; margin-top: 8px; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
@@ -119,36 +118,19 @@ main { padding-top: 32px; }
 .source-note { font-size: 1rem; line-height: 1.5rem; padding-bottom: 12px; }
 .source-note p { padding: 0; margin: 8px 0; color: var(--muted); }
 .source-note a { padding: 0; }
-.interactive-intro { margin-bottom: 40px; }
-.interactive-intro > p { color: var(--muted); }
-.interactive-links { display: grid; grid-template-columns: repeat(3, 1fr); border-block: 1px solid var(--border); margin-top: 24px; }
-.interactive-links a { padding: 18px 20px; font-size: 1rem; line-height: 1.5rem; text-decoration: none; border-right: 1px solid var(--border); }
-.interactive-links a:last-child { border-right: 0; }
-.interactive-links a:hover { background: var(--selection); }
-.interactive-links span { display: block; font-size: 1rem; line-height: 1.5rem; color: var(--muted); margin-top: 4px; }
-.quiz-section, .puzzles-section { margin-bottom: 40px; scroll-margin-top: 24px; }
-.question-card { min-width: 0; margin: 32px 0; padding: 8px 24px 24px; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
-.question-card legend { font-size: 1.125rem; line-height: 1.8125rem; padding: 0 12px; font-weight: 600; max-width: 100%; }
-.answer-option { display: flex; align-items: flex-start; gap: 12px; padding: 12px; font-size: 1.125rem; line-height: 1.8125rem; font-weight: 400; border-radius: 6px; cursor: pointer; }
-.answer-option:hover, .answer-option:has(input:checked) { background: var(--selection); }
-.answer-option input { margin-top: 3px; }
-.quiz-actions { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; }
-.quiz-actions p { margin: 0 0 0 auto; color: var(--muted); font-size: 1rem; line-height: 1.5rem; }
-.quiz-result:not(:empty) { border-left: 1px solid var(--navy); background: var(--selection); padding: 20px 24px; margin-top: 24px; }
-.quiz-result h3 { margin-top: 0; }
-.quiz-result p { margin-bottom: 0; }
-.answer-feedback { border-left: 1px solid var(--error); margin-top: 20px; padding: 16px 20px; background: #f9f1f1; font-size: 1.125rem; line-height: 1.8125rem; }
-.answer-feedback.correct { border-color: var(--success); background: #eff7f2; }
-.answer-feedback > strong { color: var(--error); }
-.answer-feedback.correct > strong { color: var(--success); }
-.answer-feedback p { margin: 8px 0; }
-.puzzles-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-.puzzle-card { background: #fff; padding: 24px; border: 1px solid var(--border); border-radius: 6px; }
-.puzzle-card h3 { white-space: pre-line; font-size: 1.125rem; line-height: 1.8125rem; }
-.answer-row { display: flex; gap: 8px; margin-top: 8px; }
-.answer-row input { min-width: 0; }
-.answer-row button { padding-inline: 14px; }
-.puzzle-feedback { font-size: 1.125rem; line-height: 1.8125rem; margin: 12px 0; }
+.rebuses-list { display: grid; grid-template-columns: minmax(0, 1fr); align-items: start; gap: 24px; margin: 0; padding: 0; list-style: none; }
+.rebuses-list > .rebus-item { min-width: 0; margin: 0; padding: 0 0 24px; border-bottom: 1px solid var(--border); }
+.rebus-preview { display: block; }
+.rebus-image { display: block; width: 100%; height: auto; object-fit: contain; }
+.rebus-actions { display: flex; flex-wrap: wrap; align-items: start; gap: 0 24px; margin-top: 8px; font-size: 1rem; line-height: 1.5rem; }
+.rebus-full-size { display: flex; align-items: center; min-height: 44px; }
+.rebus-disclosure { border-top: 0; min-width: 0; max-width: 100%; }
+.rebus-disclosure > summary { width: fit-content; }
+.rebus-solution { margin: 0; font-size: 1.125rem; line-height: 1.8125rem; font-weight: 700; overflow-wrap: anywhere; }
+.rebus-disclosure:not([open]) .rebus-hide, .rebus-disclosure[open] .rebus-show { display: none; }
+@media (min-width: 1100px) {
+  .rebuses-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 24px; }
+}
 details { border-top: 1px solid var(--border); font-size: 1rem; line-height: 1.5rem; }
 summary { min-height: 44px; padding: 10px 0; color: var(--link); cursor: pointer; }
 details p { padding: 4px 0 12px; }
@@ -213,24 +195,11 @@ details p { padding: 4px 0 12px; }
   .reading-nav ul { margin: 12px 0 24px; }
   .reading-nav a { padding: 5px 0; }
   .reading-card { padding-bottom: 24px; margin-bottom: 24px; }
-  .interactive-links { grid-template-columns: 1fr; }
-  .interactive-links a { display: flex; justify-content: space-between; gap: 16px; border-right: 0; border-bottom: 1px solid var(--border); padding: 16px 0; }
-  .interactive-links a:last-child { border-bottom: 0; }
-  .interactive-links span { margin-top: 0; }
-  .question-card { padding: 8px 12px 16px; }
-  .question-card legend { padding: 0 8px; font-size: 1.125rem; }
-  .answer-option { padding: 12px 4px; font-size: 1.125rem; }
-  .quiz-actions { align-items: stretch; flex-direction: column; }
-  .quiz-actions p { margin: 0; }
-  .puzzles-grid { grid-template-columns: 1fr; gap: 16px; }
-  .puzzle-card { padding: 20px 16px; }
-  .answer-row { flex-direction: column; }
-  .answer-row button { align-self: flex-start; }
   .author { justify-self: end; }
   main { padding-top: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; } }
-@media (forced-colors: active) { button, input, select, .office-card, .question-card, .puzzle-card { border: 1px solid CanvasText; } .main-nav a[aria-current="page"] { border-bottom-color: Highlight; } :focus-visible { outline-color: Highlight; } }
+@media (forced-colors: active) { button, input, select, .office-card { border: 1px solid CanvasText; } .main-nav a[aria-current="page"] { border-bottom-color: Highlight; } :focus-visible { outline-color: Highlight; } }
 
 .catalog-data { margin-top: 32px; font-size: 1rem; line-height: 1.5rem; }
 .catalog-data summary { font-size: 1rem; line-height: 1.5rem; }
