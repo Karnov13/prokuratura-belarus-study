@@ -1,5 +1,5 @@
 import { routeFromHash, sectionFromHash, filterOffices, safeUrl, officeDepth, validateStructure, validateContent, bindMobileMenu } from './logic.js';
-import { renderRebuses } from './rebuses.js';
+import { renderInteractiveContent } from './rebuses.js';
 
 const main = document.querySelector('#main');
 const navigation = document.querySelector('#main-nav');
@@ -92,7 +92,7 @@ function renderReading(route) {
 }
 
 function renderInteractive() {
-  main.insertAdjacentHTML('beforeend', `<section id="rebuses-block" aria-label="Ребусы">${renderRebuses(content.rebuses)}</section>`);
+  main.insertAdjacentHTML('beforeend', renderInteractiveContent(content));
 }
 
 function render() {
@@ -119,7 +119,7 @@ function jumpToSection(focus = true) {
   const section = sectionFromHash(location.hash);
   const target = section && document.getElementById(section);
   if (!target) return false;
-  const heading = target.matches('.reading-card') ? target.querySelector('h2') : null;
+  const heading = target.matches('.reading-card, .interactive-block') ? target.querySelector('h2') : null;
   const focusTarget = heading || target;
   focusTarget.tabIndex = -1;
   if (!readingWideScreen.matches) main.querySelector('.reading-toc')?.removeAttribute('open');

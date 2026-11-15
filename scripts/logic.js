@@ -62,6 +62,9 @@ export function validateContent(data) {
     if (ids.has(rebus.id)) throw new Error(`Duplicate rebus: ${rebus.id}`);
     ids.add(rebus.id);
   }
+  if (data.riddles !== undefined && (!Array.isArray(data.riddles) || data.riddles.some(riddle =>
+    !riddle || typeof riddle.question !== 'string' || !riddle.question.trim()
+    || typeof riddle.answer !== 'string' || !riddle.answer.trim()))) throw new Error('Invalid riddle');
   return data;
 }
 

@@ -13,6 +13,7 @@ test('copied reading and exercise links retain both page and target after reload
   assert.equal(sectionFromHash('#/career?section=section-2'), 'section-2');
   assert.equal(routeFromHash('#/interactive?section=rebuses-block'), 'interactive');
   assert.equal(sectionFromHash('#/interactive?section=rebuses-block'), 'rebuses-block');
+  assert.equal(sectionFromHash('#/interactive?section=riddles-block'), 'riddles-block');
   assert.equal(sectionFromHash('#/appeals'), '');
   assert.equal(sectionFromHash('#/appeals?section=%3Cscript%3E'), '');
   assert.equal(sectionFromHash('#/appeals?section=%E0%A4%A'), '');
@@ -55,6 +56,13 @@ test('content requires safe, unique rebus IDs, valid image sizes and answers', (
   assert.throws(() => validateContent({ ...content, rebuses: [{ ...rebus, height: 0 }] }), /rebus/i);
   assert.throws(() => validateContent({ ...content, rebuses: [{ ...rebus, answer: ' ' }] }), /rebus/i);
   assert.throws(() => validateContent({ ...content, rebuses: [rebus, rebus] }), /duplicate/i);
+});
+
+test('content rejects incomplete riddle pairs before rendering', () => {
+  const content = { appeals: [], career: [], activities: [], rebuses: [], sources: [] };
+  assert.doesNotThrow(() => validateContent({ ...content, riddles: [{ question: 'Вопрос', answer: 'Ответ' }] }));
+  assert.throws(() => validateContent({ ...content, riddles: [{ question: 'Вопрос', answer: ' ' }] }), /riddle/i);
+  assert.throws(() => validateContent({ ...content, riddles: [{ question: null, answer: 'Ответ' }] }), /riddle/i);
 });
 
 test('source links reject executable and relative URLs', () => {
